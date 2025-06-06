@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 0px;
+    background-color: #007d00;
+}
+
+header  ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+header  ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.linhaHeader{
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+main h1{
+    color: #007d00;
+    margin-top: 50px; 
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+main .topicos{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #013001;
+    margin-left: 40px;
+}
+
+main .normal{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+main .div{
+    margin-left: 100px;
+   margin-top: 10px;
+}
+
+main .div ul li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+main #frase{
+    display: flex;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+#entrar-contao-terapia{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#entrar-contao-terapia button{
+     margin-left:20px;
+     width: 200px;
+     height: 50px;
+     font-size: 15px;
+     border-radius: 40px;
+     color: #fff;
+     background-color: #007d00;
+     border: none;
+}
+
+#entrar-contao-terapia button:hover{
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer #linha {
+    height: 5px;
+    background-color: #007d00;
+    margin-bottom: 40px;
+}
+
+footer div#divP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+footer div#divP ul {
+    list-style-type: none;
+}
+
+footer div#divP li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+footer div#divP li a:hover {
+    text-decoration: underline;
+}
+
+footer #Div2 p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+footer button {
+    font-size: 18px;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+}
+
+footer button:hover {
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 768px) {
+ header{
+        background-color: #007d00;
+    }
+
+    header ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    padding: 20px;
+    }
+    
+    header  ul li{
+        margin-top: 20px;
+    }
+
+main #frase{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: none;
+    font-size: 20px;
+    
+}
+
+#entrar-contao-terapia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#entrar-contao-terapia button{
+    margin-top: 10px;
+}
+
+    
+footer div#divP {
+        flex-direction: column;
+        align-items: center;
+    }
+
+footer{
+    margin-bottom: 50px;
+}
+}
