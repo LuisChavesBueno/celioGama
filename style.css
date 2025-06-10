@@ -235,7 +235,7 @@ main #preco  ul li{
     white-space: none;
 }
 
-main  span{
+main  #preco span{
     font-size: 40px;
     color: #007d04;
 }
