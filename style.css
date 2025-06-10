@@ -213,16 +213,20 @@ main #preco h2{
     font-size: 20px;
 }
 
-main #preco  ul{
-    display: flex;
-    flex-wrap: none;
-    flex-direction: column;
-    margin: 50px;
-    
+main #preco  .border{    
     background-color: #007d00;
     border: 5px solid #01c204;
     border-radius: 6px;
     padding: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+main #preco ul{
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
 }
 
 main #preco  ul li{
