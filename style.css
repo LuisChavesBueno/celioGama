@@ -372,6 +372,11 @@ header div#apresentar {
     text-align: center;
 }
 
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 main div ul li .img {
     font-size: 30px;
     display: flex;
