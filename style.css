@@ -266,7 +266,7 @@ main #dialogo_conhecer {
 }
 
 main #dialogo_conhecer img {
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
 }
 
@@ -464,6 +464,11 @@ main div ul li .img {
     main #tratar button {
         width: 90%;
     }
+
+    main #dialogo_conhecer img {
+    max-width: 100%;
+    height: auto;
+}
     footer div#divP {
         flex-direction: column;
         align-items: center;
