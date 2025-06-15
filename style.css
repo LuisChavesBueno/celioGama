@@ -15,6 +15,7 @@ body {
 
 /*================================ HEADER ================================*/
 
+
 header #informacoes {
     background-color: #007d00;
 }
@@ -69,6 +70,8 @@ header button:hover {
 }
 
 /*================================ MAIN ================================*/
+
+
 
 main {
     margin-top: 50px;
@@ -215,7 +218,7 @@ main #preco h2{
 }
 
 main #preco  .border{    
-    background-color: #007d00;
+    background-color: #34df09cb;
     border: 5px solid #01c204;
     border-radius: 6px;
     padding: 40px;
@@ -231,7 +234,7 @@ main #preco ul{
 }
 
 main #preco  ul li{
-    color: #fff;
+    color: rgba(0, 0, 0, 0.514);
     display: flex;
     white-space: none;
 }
@@ -270,10 +273,12 @@ main #dialogo_conhecer img {
     height: auto;
 }
 
+
 main #dialogo_conhecer p {
     max-width: 700px;
     margin: 30px auto;
     font-size: 20px;
+    text-align: justify;
 }
 
 /*======================= TRATAR =======================*/
@@ -403,7 +408,11 @@ footer button:hover {
 /*==================== RESPONSIVO ====================*/
 
 @media (max-width: 768px) {
-   header #informacoes ul {
+ p{
+     text-align: justify;
+ }
+
+header #informacoes ul {
     flex-direction: column;
     gap: 10px;
     align-items: center; 
