@@ -144,9 +144,10 @@ footer button:hover {
     
 main  #marcar-colsuta  #p1{
     display: flex;
-    margin: 0 2%;
+    margin: 0;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
