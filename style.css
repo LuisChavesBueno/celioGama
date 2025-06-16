@@ -185,6 +185,15 @@ main #dialogo_video p a {
     color: #4CAF50;
 }
 
+main #dialogo_video #messagens-aviso{
+    display: none;
+    font-size: 25px;
+    background-color: red;
+    margin: 20px 250px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 /*===================== prego ====================*/
 #textopreco{
     color: #007d00;

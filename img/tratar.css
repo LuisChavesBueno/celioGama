@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #007d00;
+    color: #007d00;
+}
+
+main{
+    margin-top: 50px;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+main #p1{
+    display: flex;
+    margin: 0 20%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main #p2{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px; ;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+main button{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+main button:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+main button img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer #linha {
+    height: 5px;
+    background-color: #007d00;
+    margin-bottom: 40px;
+}
+
+footer div#divP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+footer div#divP ul {
+    list-style-type: none;
+}
+
+footer div#divP li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+footer div#divP li a:hover {
+    text-decoration: underline;
+}
+
+footer #Div2 p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+footer button {
+    font-size: 18px;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+}
+
+footer button:hover {
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    
+main #p2{
+    display: block;
+    margin: 0 20%;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+main button{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+    cursor: pointer;
+
+} 
+    
+    
+    footer div#divP {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

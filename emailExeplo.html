@@ -1,0 +1,66 @@
+<form id="formEmail">
+  <input type="email" id="emailInput" placeholder="Digite seu e-mail" required />
+  <button type="submit">Receber novidades</button>
+</form>
+
+<div id="mensagemConfirmacao" style="display: none;">E-mail salvo com sucesso!</div>
+
+<script>
+  const form = document.getElementById("formEmail");
+  const emailInput = document.getElementById("emailInput");
+  const mensagem = document.getElementById("mensagemConfirmacao");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault(); // impede recarregar a página
+
+    const email = emailInput.value;
+
+    // envia para o back-end
+    const resposta = await fetch("/salvar-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (resposta.ok) {
+      mensagem.style.display = "block";
+      emailInput.value = ""; // limpa o campo
+    } else {
+      alert("Erro ao salvar o e-mail.");
+    }
+  });
+
+  //back end 
+
+  // npm install express body-parser
+
+  const express = require("express");
+const bodyParser = require("body-parser");
+const fs = require("fs");
+
+const app = express();
+const PORT = 3000;
+
+app.use(bodyParser.json());
+app.use(express.static("public")); // serve os arquivos do front-end
+
+app.post("/salvar-email", (req, res) => {
+  const email = req.body.email;
+  console.log("E-mail recebido:", email);
+
+  fs.appendFile("emails.txt", email + "\n", (err) => {
+    if (err) {
+      console.error("Erro ao salvar o e-mail:", err);
+      res.status(500).send("Erro ao salvar");
+    } else {
+      res.status(200).send("Salvo com sucesso");
+    }
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
+</script>
