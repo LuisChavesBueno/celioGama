@@ -465,6 +465,19 @@ main div ul li .img {
         height: 250px;
     }
 
+    
+    main #dialogo_video #messagens-aviso{
+        display: block;
+        font-size: 25px;
+        background-color: red;
+        margin: 20px 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+
+    
+
     main div ul {
         flex-direction: column;
     }
