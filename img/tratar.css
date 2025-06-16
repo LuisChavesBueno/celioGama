@@ -16,8 +16,8 @@ main{
 main h1{
     display: flex;
     justify-content: center;
-    font-weight: 100;
     font-size: 40px;
+    color: #007d00;
 }
 
 main  #marcar-colsuta  #p1{
@@ -27,13 +27,6 @@ main  #marcar-colsuta  #p1{
     margin-top: 20px;
 }
 
-main  #marcar-colsuta  #p2{
-    display: flex;
-    justify-content: center;
-    margin-right: 200px; ;
-    font-size: 20px;
-    margin-top: 40px;
-}
 
 main button{
     font-size: 80px;
@@ -41,6 +34,7 @@ main button{
     align-items: center;
     justify-content: center;
     margin: 0px auto;
+     margin-top: 50px;
     font-size: 20px;
     border-radius: 10px;
     height: 70px;
@@ -148,12 +142,13 @@ footer button:hover {
 
 @media (max-width: 768px) {
     
-main #p2{
-    display: block;
-    margin: 0 20%;
+main  #marcar-colsuta  #p1{
+    display: flex;
+    margin: 0 2%;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
+
 
 main #marcar-colsuta button{
     font-size: 80px;
@@ -161,6 +156,7 @@ main #marcar-colsuta button{
     align-items: center;
     justify-content: center;
     margin: 0px auto;
+    margin-top: 50px;
     font-size: 20px;
     border-radius: 10px;
     height: 70px;
