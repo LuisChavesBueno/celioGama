@@ -27,6 +27,11 @@ header  ul li a{
     color: #fff;
 }
 
+button a{
+    color: #fff;
+    
+}
+
 main{
     margin-left:40px;
     margin-top: 50px;

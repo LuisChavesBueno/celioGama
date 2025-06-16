@@ -61,14 +61,14 @@ class Avaliacao {
 
 let av1 = new Avaliacao(
     "Alexie Moraes Oliveira",
-    "6 anos atrás",
+    "2 dias atrás",
     "★★★★★",
     "Bastante atencioso, excelente profissional, prestativo e amigável. Eu indico e aconselho a todos que estejam passando por momentos difíceis."
 );
 
 let av2 = new Avaliacao(
     "Luiza Reis",
-    "3 Mês",
+    "2 dias",
     "★★★★★",
     "Profissonal exemplar,humano,amigo,dedicado, aos seus pacientes e que cada sessão colabora pro meu crescimento pessoal."
 )
@@ -76,21 +76,21 @@ let av2 = new Avaliacao(
 
 let av3 = new Avaliacao(
     "Ana Lucia",
-    "3 Mês",
+    "1 semana",
     "★★★★★",
     "Excelente profissional. Satisfeita com o atendimento."
 )
 
 let av4 = new Avaliacao(
     "Rosângela Oliveira Lopes",
-    "6 Mês",
+    "1 semana",
     "★★★★★",
     "Super recomendo. Atencioso, prestativo, ótimo profissional."
 )
 
 let av5 = new Avaliacao(
     "Thiago Silva",
-    "1 Mês",
+    "2 semana",
     "★★★★★",
     "Excelente psicólogo. Recomendo 100%. Obrigado por me ajudar."
 )
