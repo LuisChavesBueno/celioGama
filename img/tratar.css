@@ -20,14 +20,14 @@ main h1{
     font-size: 40px;
 }
 
-main #p1{
+main  #marcar-colsuta  #p1{
     display: flex;
     margin: 0 20%;
     font-size: 20px;
     margin-top: 20px;
 }
 
-main #p2{
+main  #marcar-colsuta  #p2{
     display: flex;
     justify-content: center;
     margin-right: 200px; ;
@@ -52,11 +52,40 @@ main button{
 
 }
 
-main button:hover{
+main    button:hover{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-main button img{
+main  button img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+main #explicado{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 200px auto 100px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+main #explicado img{
+     max-width: 25%;
+    height: auto;
+}
+
+main #explicado ul li{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+main #explicado ul li.botao{
+    list-style-type: none ;
+}
+
+main #explicado ul li img{
     height: 30px;
     margin-right: 10px;
 }
@@ -126,7 +155,7 @@ main #p2{
     margin-top: 40px;
 }
 
-main button{
+main #marcar-colsuta button{
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -144,6 +173,20 @@ main button{
 } 
     
     
+main #explicado{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 100px;
+    align-items: center;
+}
+
+main #explicado img{
+    max-width: 100%;
+    height: auto;
+}
+
+
     footer div#divP {
         flex-direction: column;
         align-items: center;
