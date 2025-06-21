@@ -32,7 +32,8 @@ main  #marcar-colsuta  #p1{
 }
 
 
-main button{
+main a{
+    text-decoration: none;
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -50,11 +51,11 @@ main button{
 
 }
 
-main    button:hover{
+main    a:hover{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-main  button img{
+main  a img{
     height: 30px;
     margin-right: 10px;
 }

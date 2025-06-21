@@ -149,22 +149,15 @@ main #dialogo_video #informacoes-receber-videos p {
     max-width: 400px;
 }
 
-main #dialogo_video input.email,
-main #dialogo_video button.email {
-    display: block;
+
+main #dialogo_video a.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
     width: 100%;
     max-width: 400px;
-    margin-top: 15px;
-}
-
-main #dialogo_video input.email {
-    height: 40px;
-    font-size: 18px;
-    border: none;
-    padding: 0 10px;
-}
-
-main #dialogo_video button.email {
     height: 40px;
     cursor: pointer;
     background-color: white;
@@ -174,7 +167,8 @@ main #dialogo_video button.email {
     border: none;
 }
 
-main #dialogo_video button:hover {
+
+main #dialogo_video a:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -186,18 +180,6 @@ main #dialogo_video > p {
     margin-top: 20px;
 }
 
-main #dialogo_video p a {
-    color: #4CAF50;
-}
-
-main #dialogo_video #messagens-aviso{
-    display: none;
-    font-size: 25px;
-    background-color: red;
-    margin: 20px 250px;
-    border-radius: 5px;
-    padding: 10px;
-}
 
 /*===================== prego ====================*/
 #textopreco{
