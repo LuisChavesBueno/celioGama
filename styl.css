@@ -1,0 +1,503 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*================================ HEADER ================================*/
+
+
+header #informacoes {
+    background-color: #007d00;
+}
+
+header #informacoes ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+header #informacoes ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header div#apresentar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px auto 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+header img {
+    max-width: 50%;
+    height: 500px;
+}
+
+header p {
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+header button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #007d00;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+ a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header button:hover {
+    background-color: #01c204;
+}
+
+/*================================ MAIN ================================*/
+
+
+
+main {
+    margin-top: 50px;
+    padding: 0 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main div a {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+main div h2 {
+    color: #007d00;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+main div p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+main div ul li {
+    flex: 1 1 80px;
+}
+
+main div ul li .img {
+    font-size: 40px;
+}
+
+/*========================= VIDEO =========================*/
+
+main #dialogo_video {
+    margin: 50px auto 0 auto;
+    background-color: #007d04;
+    border-radius: 40px;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 1066px;
+    color: white;
+}
+
+main #informacoes-receber-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #dialogo_video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border-radius: 8px;
+    border: none;
+}
+
+main #dialogo_video #informacoes-receber-videos p {
+    font-size: 28px;
+    max-width: 400px;
+}
+
+
+main #dialogo_video a.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    color: #007d00;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+
+main #dialogo_video a:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+main #dialogo_video > p {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*===================== prego ====================*/
+#textopreco{
+    color: #007d00;
+}
+
+main #preco{
+    margin-left:0px;
+    margin-top: 100px;
+}
+
+main #preco h1{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #007d00;
+}
+
+main #separar {
+    display: flex;
+    text-align: center;
+}
+
+main #preco #preco100{
+    border-radius: 40px;
+    height: 40%;
+}
+
+
+main #preco h2{
+    font-size: 20px;
+}
+
+main #preco  .border{    
+    background-color: #007d0483;
+    border: 5px solid #01c204;
+    border-radius: 6px;
+    padding: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+main #preco ul{
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+}
+
+main #preco  ul li{
+    color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    white-space: none;
+}
+
+main  #preco span{
+    font-size: 40px;
+    color: #007d04;
+}
+
+main #preco button{
+    font-size: 20px;
+    border-radius: 40px;
+    height: 70px;
+    width: 300px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+}
+
+main #preco button:hover {
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/*===================== CONHECER =====================*/
+
+main #dialogo_conhecer {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main #dialogo_conhecer img {
+    max-width: 25%;
+    height: auto;
+}
+
+
+main #dialogo_conhecer p {
+    max-width: 700px;
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*======================= TRATAR =======================*/
+
+main #tratar {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px 0;
+}
+
+main #tratar button {
+    font-size: 20px;
+    border-radius: 40px;
+    height: 70px;
+    width: 300px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+}
+
+main #tratar button a{
+    color: #fff;
+}
+
+main #tratar button:hover {
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+#elogios {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#elogios h1 {
+    text-align: center;
+    color: #333;
+}
+
+.rating {
+    text-align: center;
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+.review {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.review .name {
+    font-weight: bold;
+    color: #444;
+}
+
+.stars {
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.review p {
+    color: #333;
+}
+  
+/*================================ FOOTER ================================*/
+
+footer {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer #linha {
+    height: 5px;
+    background-color: #007d00;
+    margin-bottom: 40px;
+}
+
+footer div#divP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+footer div#divP ul {
+    list-style-type: none;
+}
+
+footer div#divP li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+footer div#divP li a:hover {
+    text-decoration: underline;
+}
+
+footer #Div2 p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+footer button {
+    font-size: 18px;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #007d00;
+    color: #fff;
+}
+
+footer button:hover {
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*==================== RESPONSIVO ====================*/
+
+@media (max-width: 768px) {
+ p{
+     text-align: justify;
+ }
+
+header #informacoes ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; 
+}
+
+header div#apresentar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main div ul li .img {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+    main #dialogo_conhecer p {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    main #informacoes-receber-videos {
+        flex-direction: column;
+    }
+
+    main #dialogo_video iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    
+    main #dialogo_video #messagens-aviso{
+        display: none;
+        font-size: 25px;
+        background-color: red;
+        margin: 20px 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+
+    
+
+    main div ul {
+        flex-direction: column;
+    }
+
+    
+
+
+    main #preco #separar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #preco button{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    main #tratar button {
+        width: 90%;
+    }
+
+    main #dialogo_conhecer img {
+    max-width: 100%;
+    height: auto;
+}
+    footer div#divP {
+        flex-direction: column;
+        align-items: center;
+    }
+}
