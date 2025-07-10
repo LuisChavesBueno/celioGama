@@ -218,3 +218,79 @@ main #sobre-mim div img{
     display: flex;
     margin: auto;
 }
+
+
+@media (max-width: 768px){
+    header{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    
+    header img{
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+    }
+
+    span:nth-child(1){
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: -3%;
+        left: 5%;
+    }
+
+    span:nth-child(2){
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 40%;
+        left: 50%;
+    }
+
+    span:nth-child(3){
+        display: none;
+    }
+
+    span:nth-child(4){
+        width: 100px;
+        height: 100px;
+        top: 100%;
+        left: 10%;
+        border: 4px solid rgba(0, 128, 0, 0.795);
+    }
+
+    span:nth-child(5){
+        width: 200px;
+        height: 200px;
+        top: 275%;
+        left: 50%;
+        border: 4px solid rgba(0, 128, 0, 0.795);
+    }
+
+    /*///////////////////////////// main //////////////////////////*/
+
+    main #ajudar ul{
+        flex-direction: column;      
+    }
+
+    main #sobre-mim div{
+        width: 10;
+        margin:0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }   
+
+    main #sobre-mim div img{
+        margin: 0 auto;
+        width: 300px;
+        height: 400px;
+    }
+
+    main #sobre-mim div#frase p{
+        font-size: 25px;
+        font-weight: 100;
+        color: rgb(0, 0, 0); 
+    }
+}
